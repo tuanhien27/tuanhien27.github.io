@@ -1,0 +1,279 @@
+@media (max-width:768px) {
+    .introduce-title {
+        top:1% !important;
+    }
+    
+    .title-adv h1.big-title {
+        letter-spacing: 0;
+        font-size: 18px !important;
+        margin-bottom: 0;
+    }
+
+    span.title-adv {
+        font-size: 15px !important;
+    }
+
+    div.introduce-book {
+        top: 38%;
+    }
+
+    select.select-1 {
+        height: 38px;
+        width: 100%;
+        font-size: 15px;
+        text-indent: 62px;
+    }
+
+    .rounded-pill h3 {
+        font-size: 20px !important;
+    }
+
+    .fa-search {
+        top: 23% !important;
+        left: 14% !important;
+    }
+
+    .second-banner {
+        padding:0 !important;
+    }
+
+    div.banner-left {
+        padding: 0 15px !important;
+        text-align: center;
+    }
+
+    div.banner-left h2 {
+        font-size: 24px;
+        line-height: 37px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    div.banner-left ul {
+        text-align: justify;
+    }
+
+    section.four-scope {
+        padding: 0 !important;
+    }
+
+    section.five-hover {
+        padding: 0 !important;
+    }
+
+    section.six-choose-law {
+        padding: 0 !important;
+    }
+
+    section.seven-describe-law {
+        padding:30px 0 !important;
+    }
+    section.eight-package {
+        padding: 30px 0 !important;
+    }
+
+    section.eight-package p {
+        margin-bottom: 30px;
+    }
+
+    section.nine-step {
+        padding:0 !important;
+    }
+
+    section.nine-step>h1 {
+        margin-top: 19px;
+        margin-bottom: 35px;
+    }
+
+    .wrap-step > div:nth-child(2)::before {
+        display: none !important;
+    }
+    
+    .wrap-step > div:nth-child(2)::after {
+        display: none !important;
+    }
+
+    .mr-3, .ml-3 {
+        display:none !important;
+    }
+
+    .ten-benefit-with-law {
+        padding:0 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .benefit-text {
+        width: 100% !important;
+    }
+
+    div.ten-wrap {
+        margin: 30px 0;
+    }
+
+    .ten-benefit-with-law h1 {
+        margin-bottom: 354px;
+        font-size: 35px !important;
+    }
+
+    .wrap-director {
+        top: 5%;
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    section.eleven-background-full p {
+        line-height: 20px !important;
+        letter-spacing: 0 !important;
+        font-size: 15px !important;
+        padding: 0 1px !important;
+    }
+
+    #name-he-1 {
+        display:none !important;
+    }
+
+    #name-he-2 {
+        display:block !important;
+    }
+    
+    .thin-line {
+        display: none;
+    }
+
+    .fix-border {
+        border: none !important;
+    }
+
+    .director-company {
+        text-align: center;
+        bottom: 0;
+        right: 0;
+    }
+
+    .director-company img {
+        display: none;
+    }
+
+    .name-director span:nth-child(1) {
+        font-size: 19px;
+    }
+
+    .name-director span:nth-child(2) {
+        color: #FFB143;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    section.twelve-juridical {
+        padding: 0 !important;
+    }
+
+    section.twelve-juridical > p {
+        margin: 20px 0;
+        letter-spacing: 1px;
+    }
+
+    ul.wrap-juridical {
+        margin-top: 20px;
+    }
+
+    .wrap-juridical li {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .wrap-juridical li div:nth-child(1) {
+        margin:0;
+    }
+
+    .wrap-juridical h4 {
+        text-align: center;
+    }
+
+    section.thirteen-support {
+        padding: 0 !important;
+        margin-bottom: 25px;
+    }
+
+    section.video-youtube {
+        background-color: #FAFAFA;
+        padding: 0;
+    }
+
+    .video-youtube h3 {
+        margin: 0 0 25px 0;
+        padding: 5px 0 0 0;
+        text-align: center;
+    }
+
+    section.thirteen-support > div p {
+        margin: 18px 0 18px 0px;
+        text-align: left;
+    }
+
+    section.thirteen-support i.fa-plus {
+        font-size: 20px;
+        margin: 0 8px;
+    }
+
+    section.fifteen-introduce {
+        padding: 0 !important;
+    }
+
+    .wrap-introduce div.stt-col {
+        padding: 5px 10px 5px 1px;
+        width: 100%;
+    }
+
+    .stt-col-4-icon {
+        margin: 20px 0;
+    }
+
+    .wrap-introduce div {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .line-dotted {
+        height: 139px !important;
+    }
+    .rectangle-angle {
+        height: 135px;
+    }
+    .video-common iframe {
+        padding: 0;
+        left: 36px;
+        width: auto;
+    }
+    .wrap-package > div {
+        margin-right: 0;
+    }
+
+    .contact-number h2 {
+        font-size: 28px;
+    }
+
+    div.scope-common {
+        margin: 0 0 40px 0;
+    }
+
+    section.five-hover div div.no-appear {
+        left: 0;
+    }
+
+    ul.scope-common li {
+        margin: 0 0px 20px 0;
+    }
+
+    .best-tittle {
+        font-size: 30px !important;
+    }
+
+    div.wrap-package > div:nth-child(2) {
+        transform:none;
+    }
+
+    section.third-logo div img {
+        margin: 7px;
+    }
+}

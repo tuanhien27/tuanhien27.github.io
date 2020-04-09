@@ -1,0 +1,700 @@
+body {
+    font-size: 20px !important;
+}
+#nav-language-span {
+    margin:0;
+    padding:0;
+}
+
+/* #nav-language-span::after {
+    content: "";
+    position: absolute;
+    top:10px;
+    width: 20px;
+    height:16px;
+    background-color: red;
+    z-index: 3;
+}  */
+
+div.nav-language span:nth-child(2) {
+    width:2px;
+    height:20px;
+}
+
+h1 {
+    font-size: 2.7rem !important;
+}
+
+div.nav-banner {
+    margin: 30px 0;
+}
+
+.nav-introduce {
+    background-color: #F1F4F7;
+}
+
+h1.big-title {
+    letter-spacing: 3px;
+    font-size: 3rem !important;
+    margin-bottom: 1.5rem;
+}
+
+span.title-adv {
+    font-size: 2rem !important;
+    margin:0 auto;
+}
+
+div.introduce-title {
+    top:25%;
+    text-align: center;
+    width: 100%;
+}
+
+select.select-1 {
+    height: 80px;
+    border-radius: 30px;
+    text-indent: 70px;
+    border:1px solid white;
+}
+
+div.introduce-book {
+    top:60%;
+    text-align: center;
+    width: 100%;
+}
+
+i.fa-search {
+    top: 42%;
+    left: 26%;
+}
+ul {
+    margin:0;
+    padding:0;
+}
+ul li {
+    list-style-type: none;  
+}
+
+div.banner-left {
+    padding: 0 80px;
+    text-align: justify;
+}
+
+div.banner-left h2{
+    font-size: 37px;
+    line-height: 65px;
+    margin-bottom: 50px;
+}
+
+div.banner-left ul li {
+    line-height: 40px;
+}
+
+div.banner-left ul li div {
+    width: 13px;
+    height:13px;
+    border-radius: 50%;
+    display:inline-block;
+    position: relative;
+    background:var(--yellow);
+}
+
+div.banner-left ul li div:before {
+    content: '';
+    top:1px;
+    left:1px;
+    width:11px;
+    height:11px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+section.second-banner {
+    margin:100px 0 70px;
+    padding:0 138px;
+}
+
+div.banner-right ul li {
+    line-height: 30px;
+}
+
+div.banner-right ul li div p {
+    line-height: 23px;
+}
+
+section.third-logo {
+    background-color: #F1F4F7;
+}
+
+section.third-logo h4 {
+    letter-spacing: 2px;
+}
+
+section.third-logo div img {
+    background-color: transparent;
+}
+
+section.four-scope {
+    padding:0 138px;
+}
+
+ul.scope-common li {
+    background-color: #FAFAFA;
+    border:1px solid #C0C0C0;
+    text-align: center;
+    width:300px;
+    margin: 0 40px 40px 0;
+    padding:15px;
+    border-radius: 10px;
+}
+
+ul.scope-common li img {
+    margin-bottom: 20px;
+}
+
+section.four-scope button {
+    border-radius:10px;
+}
+/* ------- FIVE HOVER --------- */
+section.five-hover {
+    padding:0 138px;
+    margin-top:140px;
+    margin-bottom: 120px;
+}
+
+div.scope-common {
+    position: relative;
+    margin:0 40px 40px 0;
+}
+
+div.appear {
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 15px;
+    cursor: pointer;
+    border:1px solid #C0C0C0;
+}
+
+section.five-hover div div.no-appear {
+    width: 320px;
+    border-radius: 10px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    display: none;
+    transition: 0.8s;
+}
+
+div.no-appear a {
+    text-decoration: none;
+}
+
+div.scope-common:hover div.no-appear {
+    display: block;
+}
+
+/* ---------- CHOOSE LAW ------- */
+
+section.six-choose-law {
+    padding:0 138px;
+}
+
+section.six-choose-law h1 {
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+}
+
+section.six-choose-law div p {
+    font-size: 25px;
+}
+
+/* ----------SEVEN DESCRIBE LAW--- */
+section.seven-describe-law {
+    background: #F1F4F7;
+    padding: 80px 138px 60px 138px;
+    position: relative;
+}
+
+/* section.seven-describe-law:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #F1F4F7;
+    top: -8px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-50%);
+} */
+
+section.seven-describe-law:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #F1F4F7;
+    top: -15px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+section.seven-describe-law button {
+    border:1px solid #707070;
+    border-radius: 30px;
+    background: transparent;
+}
+
+section.seven-describe-law h5 {
+    color:#857070;
+}
+
+.i-star {
+    margin-top:180px;
+}
+
+.i-star + button {
+    margin-top:20px;
+}
+
+section.seven-describe-law ul li {
+    position: relative;
+    padding: 0 0 0 20px;
+    font-size: 17px;
+}
+
+section.seven-describe-law ul li:before {
+    content: '';
+    position: absolute;
+    width:11px;
+    height:11px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    top: 9px;
+    left: 0;
+}
+
+.fix-border {
+    border: 1px solid #FFC107;
+    border-top: none;
+    border-bottom: none;
+}
+
+div.comment-law p {
+    font-size: 17px;
+}
+
+section.seven-describe-law button {
+    background-color: #FFC107;
+    border:none;
+    border-radius: 10px;
+}
+
+/* ----------EIGHT PACKAGE ---- */
+
+section.eight-package {
+    padding: 80px 138px 60px 138px;
+}
+
+section.eight-package h1 {
+    margin-bottom: 25px;
+}
+
+section.eight-package p {
+    margin-bottom: 90px;
+}
+
+.advisory {
+    font-size:32px;
+    margin-bottom: 25px;
+    margin-top: 44px;
+}
+
+.number-prize {
+    font-size: 38px;
+    letter-spacing: 3px;
+    color: #FFC127;
+}
+
+div.div-one {
+    padding: 0 48px;
+    box-shadow: silver 2px 2px 4px;
+    margin-right: 30px;
+}
+
+i.fa-check-circle {
+    color: #FFC107;
+}
+
+ul.benefit i.fa-plus-circle {
+    color: red;
+    transform: rotate(45deg);
+}
+
+.small-line {
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, white, silver, white);
+    margin: 34px 0;
+}
+
+ul.benefit li {
+    margin:20px 0;
+    font-size: 18px;
+}
+
+div.wrap-package > div:nth-child(2) {
+    background-color: #FFF7F0;
+    transform: scale(1.03);
+}
+
+div.triangle {
+    width:110px;
+    height:50px;
+    background: #FFC107;
+    clip-path: polygon(0 0,100% 0,100% 100%);
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+/* --------------NINE STEP ----------- */
+section.nine-step {
+    padding: 0 138px;
+}
+
+section.nine-step>h1 {
+    margin-top: 25px;
+    margin-bottom: 65px;
+}
+
+.wrap-step>div {
+    padding:0 30px;
+    text-align: center;
+}
+
+.wrap-step div img {
+    margin:20px 0;
+}
+
+.wrap-step div h4 {
+    margin:40px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.wrap-step div p {
+    margin:20px 0;
+    font-weight: lighter;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.wrap-step > div:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    width:45px;
+    height:25px;
+    background-image: url(./img/arrow.jpg);
+    background-repeat: no-repeat;
+    top: 8%;
+    left: -8%;
+}
+
+.wrap-step > div:nth-child(2)::after {
+    content: '';
+    position: absolute;
+    width:45px;
+    height:25px;
+    background-image: url(./img/arrow.jpg);
+    background-repeat: no-repeat;
+    top: 8%;
+    right: -9%;
+}
+
+.contact-number h1 {
+    color:#004388;
+}
+
+.contact-number div {
+    width:30%;
+    height:2px;
+    background-color: #F1F4F7;
+}
+.contact-number h2 {
+    color:#186FB2;
+}
+
+/* -----------BENEFIT WITH LAW ---- */
+section.ten-benefit-with-law {
+    padding:0 138px;
+    margin-bottom: 60px;
+}
+
+.video-common, .benefit-text {
+    width: 50%;
+}
+
+.ten-benefit-with-law h1 {
+    margin-bottom: 50px;
+}
+.benefit-text {
+    padding: 0 14px 0 0;
+    font-size: 18px;
+}
+
+.video-common iframe {
+    padding:10px;
+    bottom: 20px;
+    left:40px;
+    z-index: 5;
+    width: 416px;
+    height:315px;
+}
+
+.line-dotted {
+    width: 321px;
+    height: 187px;
+    border:13px dotted #CBCBCB;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.rectangle-angle {
+    background-color: #F1F4F7;
+    width: 200px;
+    height: 280px;
+    bottom: 20px;
+    left: 20px;
+    z-index: 4;
+}
+
+
+/* -------ELEVEN BACKGROUND ---- */
+
+section.eleven-background-full p {
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.wrap-director {
+    top:10%;
+    text-align: center;
+    padding:0 138px;
+    display: flex;
+}
+
+section.eleven-background-full img {
+    /* opacity: 0.2; */
+}
+
+.thin-line {
+    height:1.5px;
+    width:400px;
+    background-color: #C0C0C0;
+    top:46%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,0);
+}
+
+.director-company {
+    bottom: 10%;
+    right:10%;
+}
+
+.name-director span:nth-child(1) {
+    font-size: 25px;
+}
+
+.name-director span:nth-child(2) {
+    color: #FFB143;
+    font-weight: 400;
+}
+
+#name-he-2 {
+    display: none;
+}
+
+
+/* -----------twelve-juridical------- */
+
+section.twelve-juridical {
+    padding:0 138px;
+}
+
+section.twelve-juridical h1 {
+    padding:40px 0 20px 0;
+}
+
+section.twelve-juridical > p {
+    margin:40px 0;
+    letter-spacing: 1px;
+}
+
+ul.wrap-juridical {
+    margin-top:70px;
+}
+
+.wrap-juridical li {
+    width:45%;
+    margin-bottom: 50px;
+}
+
+.wrap-juridical li div:nth-child(1) {
+    margin:0 23px 0 0;
+}
+
+.wrap-juridical li div:nth-child(2) {
+    text-align: left;
+}
+
+.wrap-juridical h4 {
+    font-weight: 400;
+}
+
+.wrap-juridical p {
+    font-weight: lighter;
+}
+
+.wrap-juridical + button {
+    box-shadow: 3px 3px 3px silver;
+    margin-bottom: 40px;
+}
+
+.line-full {
+    width:100%;
+    height: 1px;
+    background-color: #C0C0C0;
+    margin-bottom: 40px;
+}
+
+/* -------SUPPORT ---------- */
+
+section.thirteen-support {
+    padding: 0 138px;
+    margin-bottom: 90px;
+}
+
+section.thirteen-support > div p {
+    margin:18px 0 18px 30px;
+}
+
+section.thirteen-support i.fa-plus {
+    font-size: 30px;
+    margin-right: 18px;
+}
+
+section.thirteen-support a {
+    color:black;
+}
+
+section.thirteen-support span {
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;   
+}
+
+section.thirteen-support span:hover {
+    color:#84D1FF;
+}
+
+/* ---------- VIDEO YOUTUBE ------- */
+
+section.video-youtube {
+    background-color: #FAFAFA;
+    padding:0 138px;
+}
+
+.video-youtube h3 {
+    margin: 0 0 50px 0;
+    padding: 50px 0 0 0;
+}
+
+.video-3 {
+    padding-bottom: 50px;
+}
+
+/* ------------fifteen-introduce--------- */
+
+section.fifteen-introduce {
+    padding: 0 138px;
+    background-color: #212331;
+    color:#B1D3D3;
+}
+
+section.fifteen-introduce img {
+    margin:50px 0 40px 0;
+}
+
+section.fifteen-introduce p {
+    font-size: 26px;
+    margin-bottom: 05px;
+}
+
+section.fifteen-introduce .line-full {
+    background-color:white;
+    margin-bottom: 40px;
+}
+
+section.fifteen-introduce input:nth-child(1) {
+    font-style: italic;
+    padding: 20px;
+    border:none;
+}
+
+section.fifteen-introduce input:nth-child(2) {
+    padding: 20px;
+    color: white;
+    background: #FFC107;
+    border:none;
+}
+
+.wrap-introduce div {
+    text-align: left;
+    font-size: 18px;
+}
+
+.wrap-introduce i {
+    margin-right: 7px;
+}
+
+.wrap-introduce div.stt-col-1 {
+    padding:5px 10px 5px 1px;
+    width: 21%;
+}
+
+.wrap-introduce div.stt-col-2 {
+    padding:5px 10px 5px 1px;
+    width: 22%;
+}
+
+.wrap-introduce div.stt-col-3 {
+    padding:5px 10px 5px 1px;
+    width: 17%;
+}
+
+.wrap-introduce div.stt-col-4 {
+    /* padding:5px 10px 5px 1px; */
+    width: 40%;
+}
+
+.stt-col-4-icon {
+    margin:40px 0;
+}
+
+.stt-col-4-icon span i {
+    color:white;
+    font-size: 25px;
+    margin:0 15px;
+}
+
+.stt-col-4 form input:first-child {
+    width: 100%;
+}
+
+/* ---------FOOTER -------- */
