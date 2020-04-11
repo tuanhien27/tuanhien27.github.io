@@ -31,6 +31,7 @@ div.nav-banner {
 
 .nav-introduce {
     background-color: #F1F4F7;
+    padding: 10px;
 }
 
 h1.big-title {
@@ -192,9 +193,11 @@ div.no-appear a {
     text-decoration: none;
 }
 
+
 div.scope-common:hover div.no-appear {
     display: block;
 }
+
 
 /* ---------- CHOOSE LAW ------- */
 
@@ -617,6 +620,12 @@ section.video-youtube {
 
 .video-3 {
     padding-bottom: 50px;
+}
+
+section.video-youtube iframe {
+    margin:10px;
+    width:560px; 
+    height:315px;
 }
 
 /* ------------fifteen-introduce--------- */
